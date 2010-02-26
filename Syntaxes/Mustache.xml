@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<syntax name="text.html.mustache">
+    <zones>
+        <zone name="comment.block.mustache">
+            <starts-with>
+                <expression>\{\{!</expression>
+            </starts-with>
+            <ends-with>
+                <expression>\}\}</expression>
+            </ends-with>
+        </zone>
+        <zone name="source.mustache.embedded.html">
+            <starts-with>
+                <expression>\{\{[{&lt;>#/]?</expression>
+                <capture number="0" name="punctuation.begin"/>
+            </starts-with>
+            <ends-with>
+                <expression>\}?\}\}</expression>
+                <capture number="0" name="punctuation.end"/>
+            </ends-with>
+        </zone>
+        <include syntax="text.html.basic"/>
+    </zones>
+</syntax>

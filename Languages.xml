@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<settings>
+
+	<language id="text.html.mustache">
+		
+		<!-- Note: root-zone will be deprecated in the next beta and replaced by syntax-name -->
+		<root-zone>text.html.mustache</root-zone>
+		<name>Mustache</name>
+		<detectors>
+			<extension>mustache</extension>
+		</detectors>
+		
+		<default-extension>mustache</default-extension>
+		
+	</language>
+	
+	<meta>
+		<name>Mustache</name>
+		<author>Joshua Hawxwell</author>
+		<download format="git">git://github.com/hawx/Mustache.sugar.git</download>
+		<url>http://github.com/hawx/Mustache.sugar</url>
+	</meta>
+	
+</settings>
