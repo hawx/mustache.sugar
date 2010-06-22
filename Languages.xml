@@ -9,6 +9,7 @@
 		<name>Mustache</name>
 		<detectors>
 			<extension>mustache</extension>
+			<extension>ms</extension>
 		</detectors>
 		
 		<default-extension>mustache</default-extension>

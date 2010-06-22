@@ -11,7 +11,7 @@
         </zone>
         <zone name="source.mustache.embedded.html">
             <starts-with>
-                <expression>\{\{[{&lt;>#/]?</expression>
+                <expression>\{\{[{&lt;>#/%]?</expression>
                 <capture number="0" name="punctuation.begin"/>
             </starts-with>
             <ends-with>
